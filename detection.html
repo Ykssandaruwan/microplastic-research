@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detection Technologies | Microplastics Lab</title>
+  <meta name="description" content="Scientific overview of microplastic detection technologies and workflows.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="Microplastics website home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Microplastics Lab</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="detection.html">Detection</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="transformation.html">Transformation</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="author.html">Author</a></li>
+    </ul>
+  </div>
+</header>
+
+
+<main id="content">
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div>
+        <span class="kicker">Analytical workflow</span>
+        <h1>Detection is not only finding particles. It is proving what they are.</h1>
+        <p class="lead">Reliable microplastic analysis combines contamination control, sample preparation, counting, size measurement, particle description, polymer confirmation and uncertainty reporting.</p>
+      </div>
+      <div class="figure-panel">
+        <img src="assets/img/detection-workflow.svg" alt="Microplastic detection workflow diagram">
+        <div class="figure-caption">Figure: A simplified workflow linking sampling, preparation, detection and polymer confirmation.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="section-head">
+      <h2>Core workflow for defensible results</h2>
+      <p class="lead">A method is stronger when every step is documented and matched with the research question.</p>
+    </div>
+    <div class="workflow">
+      <div class="step"><div class="step-num">1</div><h3>Sampling</h3><p>Define matrix, volume, depth, replicate strategy and contamination controls.</p></div>
+      <div class="step"><div class="step-num">2</div><h3>Preparation</h3><p>Filter, digest organic matter, separate particles and record recovery checks.</p></div>
+      <div class="step"><div class="step-num">3</div><h3>Screening</h3><p>Measure count, size, shape and colour using microscopy or signal-based tools.</p></div>
+      <div class="step"><div class="step-num">4</div><h3>Confirmation</h3><p>Use spectroscopic or thermal methods to confirm polymer identity.</p></div>
+      <div class="step"><div class="step-num">5</div><h3>Reporting</h3><p>Report units, blanks, detection limits, recovery, uncertainty and data processing rules.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Technology explorer</h2>
+      <p class="lead">Each technology answers a different part of the question. A strong study often combines more than one method.</p>
+    </div>
+    <div class="grid two" data-render="technology-cards">
+      <article class="card"><h3>Loading technology cards</h3><p>Serve the website through a local server to load dynamic JSON content.</p></article>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="section-head">
+      <h2>Method comparison</h2>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Method family</th><th>Typical output</th><th>Best use</th><th>Main caution</th></tr></thead>
+        <tbody>
+          <tr><td><strong>Microscopy</strong></td><td>Count, colour, shape and approximate size</td><td>Screening larger particles</td><td>Polymer identity remains uncertain without confirmation.</td></tr>
+          <tr><td><strong>FTIR and Raman</strong></td><td>Polymer fingerprint and particle-level identification</td><td>Confirming polymer type</td><td>Spectra can be affected by fluorescence, contamination and particle size.</td></tr>
+          <tr><td><strong>Thermal analysis</strong></td><td>Polymer mass and chemical markers</td><td>Complex matrices and mass-based reporting</td><td>Destructive and does not keep particle morphology.</td></tr>
+          <tr><td><strong>Electrical sensing</strong></td><td>Signal pulse, count and estimated particle size</td><td>Fast liquid-flow monitoring and classification research</td><td>Needs calibration and complementary evidence for polymer identity.</td></tr>
+          <tr><td><strong>AI-assisted methods</strong></td><td>Automated classification and pattern recognition</td><td>Large datasets, images, spectra and signals</td><td>Requires representative training data and transparent validation.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>Microplastics Lab</strong><br>
+      Science-based educational website. Update content from <code>data/site.json</code>.
+    </div>
+    <div class="footer-links">
+      <a href="publications.html">References</a>
+      <a href="author.html">Author</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

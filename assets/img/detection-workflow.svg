@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 460" role="img" aria-label="Microplastic detection workflow diagram">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#bad8e0"/><stop offset="1" stop-color="#ecd8e0"/></linearGradient></defs>
+  <rect width="760" height="460" rx="34" fill="#fff"/>
+  <g font-family="Arial, sans-serif" fill="#223040">
+    <g transform="translate(52,70)">
+      <rect width="126" height="96" rx="22" fill="#bad8e0"/><text x="63" y="42" text-anchor="middle" font-size="18" font-weight="700">Sample</text><text x="63" y="68" text-anchor="middle" font-size="13">Water, food, air</text>
+    </g>
+    <g transform="translate(220,70)">
+      <rect width="126" height="96" rx="22" fill="#ffd5b6"/><text x="63" y="42" text-anchor="middle" font-size="18" font-weight="700">Prepare</text><text x="63" y="68" text-anchor="middle" font-size="13">Digest and filter</text>
+    </g>
+    <g transform="translate(388,70)">
+      <rect width="126" height="96" rx="22" fill="#ecd8e0"/><text x="63" y="42" text-anchor="middle" font-size="18" font-weight="700">Detect</text><text x="63" y="68" text-anchor="middle" font-size="13">Signals or images</text>
+    </g>
+    <g transform="translate(556,70)">
+      <rect width="126" height="96" rx="22" fill="#ccc8c8"/><text x="63" y="42" text-anchor="middle" font-size="18" font-weight="700">Confirm</text><text x="63" y="68" text-anchor="middle" font-size="13">Polymer type</text>
+    </g>
+    <path d="M180 118 H218 M348 118 H386 M516 118 H554" stroke="#223040" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(96,245)"><circle cx="0" cy="0" r="38" fill="url(#b)"/><text x="0" y="7" font-size="22" text-anchor="middle" font-weight="700">FTIR</text></g>
+    <g transform="translate(244,245)"><circle cx="0" cy="0" r="38" fill="#ffd5b6"/><text x="0" y="7" font-size="22" text-anchor="middle" font-weight="700">Raman</text></g>
+    <g transform="translate(392,245)"><circle cx="0" cy="0" r="38" fill="#ecd8e0"/><text x="0" y="7" font-size="22" text-anchor="middle" font-weight="700">ESZ</text></g>
+    <g transform="translate(540,245)"><circle cx="0" cy="0" r="38" fill="#ccc8c8"/><text x="0" y="7" font-size="22" text-anchor="middle" font-weight="700">AI</text></g>
+    <rect x="142" y="335" width="476" height="52" rx="26" fill="#223040" opacity=".95"/><text x="380" y="367" text-anchor="middle" fill="#fff" font-size="18" font-weight="700">Reliable output = count + size + shape + polymer evidence + uncertainty</text>
+  </g>
+</svg>

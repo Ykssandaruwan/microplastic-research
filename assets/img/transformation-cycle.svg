@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 500" role="img" aria-label="Microplastic transformation cycle">
+  <rect width="760" height="500" rx="34" fill="#ffffff"/>
+  <g fill="none" stroke="#bad8e0" stroke-width="16" stroke-linecap="round" opacity=".76">
+    <path d="M392 86 C514 92 620 188 622 306"/>
+    <path d="M602 352 C538 442 402 462 296 418"/>
+    <path d="M234 382 C138 300 138 166 236 108"/>
+  </g>
+  <g fill="#223040" opacity=".28">
+    <path d="M620 307 l28 -42 l17 50 z"/><path d="M296 418 l52 4 l-36 40 z"/><path d="M236 108 l-52 2 l34 -41 z"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#223040">
+    <rect x="276" y="48" width="208" height="78" rx="24" fill="#ffd5b6"/><text x="380" y="94" text-anchor="middle" font-size="20" font-weight="700">Macroplastic waste</text>
+    <rect x="498" y="220" width="194" height="82" rx="24" fill="#bad8e0"/><text x="595" y="255" text-anchor="middle" font-size="18" font-weight="700">Weathering</text><text x="595" y="280" text-anchor="middle" font-size="13">UV, heat, abrasion</text>
+    <rect x="274" y="372" width="212" height="78" rx="24" fill="#ecd8e0"/><text x="380" y="417" text-anchor="middle" font-size="20" font-weight="700">Micro and nano</text>
+    <rect x="68" y="220" width="192" height="82" rx="24" fill="#ccc8c8"/><text x="164" y="255" text-anchor="middle" font-size="18" font-weight="700">Transport</text><text x="164" y="280" text-anchor="middle" font-size="13">Water, soil, air, biota</text>
+    <circle cx="380" cy="250" r="88" fill="#fff" stroke="#223040" stroke-opacity=".14" stroke-width="2"/>
+    <text x="380" y="232" text-anchor="middle" font-size="18" font-weight="700">Surface changes</text>
+    <text x="380" y="260" text-anchor="middle" font-size="14">biofilms, cracks, oxidation</text>
+    <text x="380" y="284" text-anchor="middle" font-size="14">leaching and sorption</text>
+  </g>
+</svg>

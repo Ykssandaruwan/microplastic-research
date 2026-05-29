@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications and Evidence | Microplastics Lab</title>
+  <meta name="description" content="References, evidence map and publication library for the microplastics website.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#content">Skip to content</a>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="Microplastics website home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Microplastics Lab</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Open navigation">Menu</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="detection.html">Detection</a></li>
+      <li><a href="health.html">Health</a></li>
+      <li><a href="transformation.html">Transformation</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="author.html">Author</a></li>
+    </ul>
+  </div>
+</header>
+
+
+<main id="content">
+  <section class="page-hero">
+    <div class="page-hero-inner">
+      <div>
+        <span class="kicker">Evidence base</span>
+        <h1>Publications can be added as the website grows.</h1>
+        <p class="lead">This page keeps the evidence transparent. Core references are listed below, and your own publication cards can be added through the JSON file.</p>
+      </div>
+      <div class="card accent-c">
+        <h2>How to update</h2>
+        <p>Open <code>data/site.json</code>. Add your papers under <code>userPublications</code> and add new references under <code>references</code>. Keep summaries short and factual.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="section-head">
+      <h2>Your publication library</h2>
+      <p class="lead">Replace the sample card with your actual publication details.</p>
+    </div>
+    <div class="grid two" data-render="publications">
+      <article class="card"><h3>Publication card</h3><p>Add your publication data in data/site.json.</p></article>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Research gaps to watch</h2>
+    </div>
+    <div class="grid three">
+      <article class="card"><h3>Standard methods</h3><p>Sampling, contamination control, blank correction and reporting units are not yet fully harmonised across studies.</p></article>
+      <article class="card"><h3>Small particles</h3><p>Small microplastics and nanoplastics remain difficult to measure, especially in complex biological and environmental matrices.</p></article>
+      <article class="card"><h3>Real-time monitoring</h3><p>Fast field-ready tools need stronger calibration, interference testing and validation against confirmatory methods.</p></article>
+      <article class="card"><h3>Human risk</h3><p>More work is needed to connect exposure levels, particle properties and biological effects with confidence.</p></article>
+      <article class="card"><h3>Transformation history</h3><p>Environmental ageing can change detection signatures and biological behaviour.</p></article>
+      <article class="card"><h3>Open datasets</h3><p>Machine learning workflows need transparent reference datasets that represent real-world particle diversity.</p></article>
+    </div>
+  </section>
+
+  <section class="section tight">
+    <div class="section-head">
+      <h2>Core references used for this website</h2>
+      <p class="lead">The references below are starting points. Add your own reviewed publications as the website develops.</p>
+    </div>
+    <ul class="reference-list" data-render="references">
+      <li>References load from data/site.json.</li>
+    </ul>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <strong>Microplastics Lab</strong><br>
+      Science-based educational website. Update content from <code>data/site.json</code>.
+    </div>
+    <div class="footer-links">
+      <a href="publications.html">References</a>
+      <a href="author.html">Author</a>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

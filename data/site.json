@@ -1,0 +1,196 @@
+{
+  "site": {
+    "title": "Microplastics: Detection, Transformation and Health Relevance",
+    "subtitle": "A science-based educational website on microplastic pollution, analytical technologies, environmental transformation and possible human health relevance.",
+    "lastUpdated": "2026-05-29",
+    "palette": {
+      "blush": "#ecd8e0",
+      "peach": "#ffd5b6",
+      "aqua": "#bad8e0",
+      "white": "#ffffff",
+      "stone": "#ccc8c8",
+      "ink": "#27313b",
+      "muted": "#66727d",
+      "deep": "#223040"
+    }
+  },
+  "author": {
+    "name": "Your Name",
+    "role": "Researcher in Microplastic Detection and Environmental Monitoring",
+    "affiliation": "Your Department / University / Organization",
+    "email": "your.email@example.com",
+    "location": "Your City, Country",
+    "researchInterests": [
+      "Microplastic detection",
+      "Electrical sensing zone methods",
+      "Signal processing and machine learning",
+      "Environmental monitoring",
+      "Water and wastewater systems"
+    ],
+    "bio": "Replace this paragraph with your own author profile. You can mention your academic background, research interests, current work and the purpose of this website. Keep it simple, factual and professional."
+  },
+  "detectionTechnologies": [
+    {
+      "name": "Visual and stereo microscopy",
+      "bestFor": "Initial sorting by size, shape and colour",
+      "strength": "Low-cost screening and useful for larger visible particles.",
+      "limitation": "It cannot confirm polymer type and is prone to observer bias."
+    },
+    {
+      "name": "FTIR and micro-FTIR spectroscopy",
+      "bestFor": "Polymer identification using infrared spectra",
+      "strength": "Strong confirmatory method for common polymers and non-destructive analysis.",
+      "limitation": "Small particles, dark particles, additives and matrix residues can reduce quality."
+    },
+    {
+      "name": "Raman and micro-Raman spectroscopy",
+      "bestFor": "Polymer identification for small particles and complex shapes",
+      "strength": "Can analyse smaller particles than many FTIR workflows and gives molecular fingerprints.",
+      "limitation": "Fluorescence, pigments and sample heating can affect spectra."
+    },
+    {
+      "name": "Py-GC/MS and thermal analysis",
+      "bestFor": "Mass-based polymer quantification",
+      "strength": "Highly useful for complex matrices and polymer mass estimates.",
+      "limitation": "Destructive method and does not preserve particle count, size or shape information."
+    },
+    {
+      "name": "SEM-EDS",
+      "bestFor": "Surface morphology and elemental information",
+      "strength": "Provides high-resolution imaging and helps identify surface weathering or inorganic interference.",
+      "limitation": "It is not sufficient as a stand-alone polymer confirmation method."
+    },
+    {
+      "name": "Nile Red fluorescence screening",
+      "bestFor": "Rapid screening of hydrophobic particles",
+      "strength": "High-throughput and useful before confirmatory spectroscopy.",
+      "limitation": "False positives are possible, so confirmation is required."
+    },
+    {
+      "name": "Electrical sensing zone and Coulter-type methods",
+      "bestFor": "Fast particle counting and size estimation in liquid flow",
+      "strength": "Suitable for real-time signal-based counting, sizing and automated classification workflows.",
+      "limitation": "Polymer identity is not directly confirmed unless combined with complementary methods or trained models."
+    },
+    {
+      "name": "AI-assisted imaging and spectral classification",
+      "bestFor": "Automated sorting, classification and data interpretation",
+      "strength": "Improves throughput and consistency when trained with strong reference datasets.",
+      "limitation": "Model reliability depends on representative calibration data and transparent validation."
+    }
+  ],
+  "healthMechanisms": [
+    {
+      "mechanism": "Physical particle effects",
+      "summary": "Small particles may interact with tissues depending on size, shape and surface properties. Fibres and fragments can behave differently."
+    },
+    {
+      "mechanism": "Inflammation and oxidative stress",
+      "summary": "Several experimental studies discuss inflammation and oxidative stress as plausible biological pathways, but human risk thresholds remain uncertain."
+    },
+    {
+      "mechanism": "Chemical additives and adsorbed pollutants",
+      "summary": "Plastic particles may carry additives, residual monomers or environmental pollutants, which can influence toxicological relevance."
+    },
+    {
+      "mechanism": "Gut and microbiome interaction",
+      "summary": "Ingestion exposure may interact with the gastrointestinal environment, but the strength of evidence varies by particle type and study design."
+    },
+    {
+      "mechanism": "Translocation of very small particles",
+      "summary": "Very small microplastics and nanoplastics may have higher potential to cross biological barriers, making them a major research priority."
+    }
+  ],
+  "transformationProcesses": [
+    "Photo-oxidation caused by sunlight and oxygen",
+    "Mechanical fragmentation caused by abrasion, waves and sediment movement",
+    "Thermal ageing and polymer chain breakdown",
+    "Biofouling and microbial colonisation on particle surfaces",
+    "Aggregation with organic matter, minerals or other suspended solids",
+    "Leaching of additives and adsorption of external pollutants",
+    "Progressive formation of smaller particles, including nanoplastics"
+  ],
+  "researchGaps": [
+    "Globally harmonised sampling and reporting methods are still limited.",
+    "Small microplastics and nanoplastics are difficult to quantify with confidence.",
+    "Complex water, wastewater, food and biological matrices create interference.",
+    "Field-ready, real-time detection technologies need stronger validation.",
+    "Human health evidence is increasing, but dose-response relationships remain uncertain.",
+    "Open reference datasets are needed for machine learning based classification."
+  ],
+  "references": [
+    {
+      "short": "NOAA Ocean Service",
+      "title": "What are microplastics?",
+      "year": "2024",
+      "url": "https://oceanservice.noaa.gov/facts/microplastics.html",
+      "note": "General definition and public science explanation."
+    },
+    {
+      "short": "WHO",
+      "title": "Microplastics in drinking-water",
+      "year": "2019",
+      "url": "https://www.who.int/publications/i/item/9789241516198",
+      "note": "Health evidence, drinking-water exposure and research gaps."
+    },
+    {
+      "short": "UNEP",
+      "title": "From Pollution to Solution: A global assessment of marine litter and plastic pollution",
+      "year": "2021",
+      "url": "https://www.unep.org/resources/pollution-solution-global-assessment-marine-litter-and-plastic-pollution",
+      "note": "Global assessment of marine plastic pollution, impacts and response options."
+    },
+    {
+      "short": "Randhawa et al.",
+      "title": "Advanced analytical techniques for microplastics in the environment",
+      "year": "2023",
+      "url": "https://link.springer.com/article/10.1186/s42269-023-01148-0",
+      "note": "Review of FTIR, Raman, thermal methods, SEM and other analytical techniques."
+    },
+    {
+      "short": "Alimi et al.",
+      "title": "Weathering pathways and protocols for environmentally relevant microplastics and nanoplastics",
+      "year": "2022",
+      "url": "https://publications.polymtl.ca/9147/1/2022_Alimi_Weathering_pathways_protocols_environmentally_relevant.pdf",
+      "note": "Review of ageing and weathering pathways."
+    },
+    {
+      "short": "Liu et al.",
+      "title": "Microplastic migration and transformation pathways",
+      "year": "2025",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0269749125000739",
+      "note": "Recent review of migration, transformation and degradation pathways."
+    },
+    {
+      "short": "Nawab et al.",
+      "title": "Human exposure to microplastics: A review on pathways and evidence gaps",
+      "year": "2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2772416624000883",
+      "note": "Review of ingestion, inhalation and dermal exposure pathways."
+    },
+    {
+      "short": "Ririe et al.",
+      "title": "Impact of Microplastic Exposure on Human Health",
+      "year": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12848325/",
+      "note": "Systematic review of possible mechanisms, biomarkers and clinical outcomes."
+    },
+    {
+      "short": "Yang et al.",
+      "title": "Microplastics in drinking water: A review on methods, evidence and research needs",
+      "year": "2024",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0269749124005712",
+      "note": "Review highlighting variability in concentration data and need for standard methods."
+    }
+  ],
+  "userPublications": [
+    {
+      "title": "Add your publication title here",
+      "authors": "Author 1, Author 2",
+      "venue": "Journal or conference name",
+      "year": "2026",
+      "url": "#",
+      "summary": "Short note on why this publication is important for microplastic detection or impact assessment."
+    }
+  ]
+}
