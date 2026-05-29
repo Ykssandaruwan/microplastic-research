@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Publications and Evidence | Microplastics Lab</title>
-  <meta name="description" content="References, evidence map and publication library for the microplastics website.">
+  <title>Microplastics: From Hidden Fragments to Measurable Risk | Microplastics Lab</title>
+  <meta name="description" content="A designed web article synthesizing recent microplastic review papers into a readable story on sources, transformation, exposure, detection and recovery.">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -22,73 +22,135 @@
       <li><a href="detection.html">Detection</a></li>
       <li><a href="health.html">Health</a></li>
       <li><a href="transformation.html">Transformation</a></li>
-      <li><a href="publications.html">Publications</a></li>
+      <li><a class="active" href="publications.html">Publications</a></li>
       <li><a href="author.html">Author</a></li>
     </ul>
   </div>
 </header>
 
-
 <main id="content">
-  <section class="page-hero">
-    <div class="page-hero-inner">
-      <div>
-        <span class="kicker">Evidence base</span>
-        <h1>Publications can be added as the website grows.</h1>
-        <p class="lead">This page keeps the evidence transparent. Core references are listed below, and your own publication cards can be added through the JSON file.</p>
-      </div>
-      <div class="card accent-c">
-        <h2>How to update</h2>
-        <p>Open <code>data/site.json</code>. Add your papers under <code>userPublications</code> and add new references under <code>references</code>. Keep summaries short and factual.</p>
+  <section class="story-hero">
+    <div class="story-hero-copy">
+      <span class="kicker">Research article</span>
+      <h1>Microplastics: from hidden fragments to measurable risk</h1>
+      <p class="lead">A readable synthesis of recent review evidence on how microplastics are formed, transformed, detected, and managed before they become a larger environmental and health concern.</p>
+      <div class="article-meta clean">
+        <span>Web article</span>
+        <span>Science communication</span>
+        <span>Updated May 2026</span>
       </div>
     </div>
+    <figure class="hero-visual-card">
+      <img src="assets/img/article-journey.svg" alt="Conceptual illustration showing the journey of microplastics from sources to transformation, exposure, detection and recovery.">
+    </figure>
   </section>
 
-  <section class="section tight">
-    <div class="section-head">
-      <h2>Featured article</h2>
-      <p class="lead">A readable synthesis prepared from the two publications reviewed for this website.</p>
-    </div>
-    <article class="card featured-article-card accent-a">
-      <span class="kicker">Publication insight</span>
-      <h3>Microplastics from Detection to Recovery: What Two Recent Reviews Tell Us</h3>
-      <p>This article connects microplastic sources, environmental transformation, human health relevance, analytical detection and treatment pathways in one clear research story.</p>
-      <a class="button primary" href="publication-insight-microplastics.html">Read the article</a>
+  <section class="story-wrapper">
+    <aside class="story-sidebar" aria-label="Article navigation">
+      <strong>In this article</strong>
+      <a href="#story">The story</a>
+      <a href="#sources">Where they come from</a>
+      <a href="#transformation">How they change</a>
+      <a href="#health">Why health matters</a>
+      <a href="#detection">How we detect them</a>
+      <a href="#recovery">How we respond</a>
+    </aside>
+
+    <article class="story-article">
+      <section id="story" class="story-block intro-block">
+        <p class="opening-line">Microplastics are often described as tiny plastic particles, but that simple definition hides a much larger story.</p>
+        <p>They are not only pieces of waste. They are moving particles, chemical surfaces, carriers of additives, possible exposure agents, and signals that need to be measured carefully. The two review papers used for this article point to one main lesson: microplastic pollution has to be understood as a chain. It begins with production and daily use, continues through environmental breakdown and transport, reaches living organisms through exposure pathways, and finally demands better detection and treatment systems.</p>
+        <p>This article does not repeat the paper titles and author lists as a publication card. Instead, it translates the main scientific ideas into a readable web article for students, researchers, and interested readers who want to understand the bigger picture.</p>
+      </section>
+
+      <section id="sources" class="story-block split-block">
+        <div>
+          <span class="section-label">01</span>
+          <h2>Microplastics begin as a design, use and waste problem.</h2>
+          <p>Most microplastics enter the environment through ordinary human systems. Some are manufactured directly at small size, such as plastic pellets, microbeads and industrial abrasives. Others are created when larger plastics break down into smaller fragments through weathering, sunlight, friction and physical stress.</p>
+          <p>The source list is broad. Synthetic textiles release fibres during washing. Tyres and road markings generate abrasion particles. Packaging, bottles, agricultural mulch, sewage sludge, personal care products, fishing gear and marine coatings can all contribute to the microplastic load. Once released, these particles move through wastewater, runoff, rivers, soil, air and marine systems.</p>
+        </div>
+        <figure class="article-figure">
+          <img src="assets/img/article-sources.svg" alt="Visual map of major source streams of microplastics.">
+          <figcaption>Conceptual source map prepared for this website, based on the source categories discussed in the reviewed papers.</figcaption>
+        </figure>
+      </section>
+
+      <section id="transformation" class="story-block split-block reverse">
+        <div>
+          <span class="section-label">02</span>
+          <h2>The environment does not keep microplastics unchanged.</h2>
+          <p>After release, microplastics continue to change. Sunlight can trigger photo-oxidation. Waves, road wear and sediment movement can fragment particles. Oxygen, pH, temperature and chemical exposure can alter surfaces. Microorganisms can colonise plastic surfaces and form biofilms, which may change buoyancy, surface charge, hydrophobicity and interaction with other pollutants.</p>
+          <p>This ageing process matters because a fresh plastic particle and a weathered particle may not behave in the same way. Weathered surfaces may adsorb metals, organic pollutants or biological material. Smaller particles may travel farther, become more difficult to detect, and may have different biological interaction potential.</p>
+        </div>
+        <figure class="article-figure">
+          <img src="assets/img/article-transformation.svg" alt="Diagram showing sunlight, abrasion, biofilms and chemical interactions that transform microplastics.">
+          <figcaption>Transformation is a sequence of physical, chemical and biological changes, not a single event.</figcaption>
+        </figure>
+      </section>
+
+      <section id="health" class="story-block highlight-block">
+        <span class="section-label">03</span>
+        <h2>Health risk is linked to exposure, particle properties and uncertainty.</h2>
+        <p>Microplastics can reach humans through ingestion, inhalation and, in some situations, contact with contaminated products or environments. The reviewed literature discusses evidence of microplastics in food, water and biological samples, while also showing that health interpretation remains complex. Particle size, shape, polymer type, additives, surface ageing and adsorbed contaminants can all influence potential effects.</p>
+        <div class="mini-cards three-cards">
+          <div><strong>Ingestion</strong><span>Food, drinking water, seafood and particles moving through the food chain.</span></div>
+          <div><strong>Inhalation</strong><span>Airborne fibres and small particles from textiles, tyres and indoor or urban dust.</span></div>
+          <div><strong>Interaction</strong><span>Oxidative stress, inflammation, gut effects and contaminant transport are active research concerns.</span></div>
+        </div>
+        <p>The most responsible message is not to overstate certainty. The concern is serious, but risk assessment still needs better exposure data, standard particle reporting, and stronger links between measured particles and biological outcomes.</p>
+      </section>
+
+      <section id="detection" class="story-block split-block">
+        <div>
+          <span class="section-label">04</span>
+          <h2>Detection is moving from visual counting to smarter sensing.</h2>
+          <p>Microplastic analysis has traditionally depended on visual inspection, microscopy, FTIR, Raman spectroscopy, SERS, pyrolysis GC-MS, thermal analysis, staining methods and related confirmatory techniques. These methods are valuable because they can identify polymer types and help avoid false counting of non-plastic particles.</p>
+          <p>At the same time, the field is looking for faster and more portable methods. Electrochemical approaches are promising because many plastics are electrically insulating and can disturb current, resistance or impedance when interacting with an electrode or sensor surface. Graphene electrodes, impedance spectroscopy, particle-impact electrochemistry, peptide-assisted sensing and photoelectrochemical designs show how future monitoring may become faster and closer to field conditions.</p>
+        </div>
+        <figure class="article-figure">
+          <img src="assets/img/article-detection.svg" alt="Conceptual comparison of laboratory confirmation methods and emerging electrochemical sensing methods.">
+          <figcaption>Future monitoring will likely combine quick screening tools with confirmatory laboratory methods.</figcaption>
+        </figure>
+      </section>
+
+      <section class="story-block method-strip" aria-label="Detection methods summary">
+        <div><strong>FTIR</strong><span>Polymer fingerprinting</span></div>
+        <div><strong>Raman</strong><span>Small particle identification</span></div>
+        <div><strong>SERS</strong><span>Signal enhancement</span></div>
+        <div><strong>Py-GC/MS</strong><span>Polymer mass evidence</span></div>
+        <div><strong>EIS</strong><span>Fast sensing potential</span></div>
+      </section>
+
+      <section id="recovery" class="story-block split-block reverse">
+        <div>
+          <span class="section-label">05</span>
+          <h2>The response must move from removal to recovery.</h2>
+          <p>Treatment is not only about collecting particles after contamination has happened. It should begin with source reduction and better waste management. After that, wastewater treatment, sedimentation, membrane filtration, dissolved air flotation, adsorption, constructed wetlands and sludge treatment can help intercept particles before they move farther into the environment.</p>
+          <p>The reviewed papers also discuss biological and thermochemical routes, including algal or microbial degradation, anaerobic digestion, thermal hydrolysis, hydrothermal liquefaction, pyrolysis, gasification, plasma arc gasification and catalytic cracking. These approaches are not magic solutions, but they show a useful direction: future systems may combine pollution control with energy or material recovery.</p>
+        </div>
+        <figure class="article-figure">
+          <img src="assets/img/article-recovery.svg" alt="Treatment ladder from prevention and separation to degradation and recovery.">
+          <figcaption>A practical response may need several steps working together, from prevention to resource recovery.</figcaption>
+        </figure>
+      </section>
+
+      <section class="story-block takeaway-block">
+        <span class="section-label">Main takeaway</span>
+        <h2>Microplastics should be studied as particles, pollutants, signals and recovery targets.</h2>
+        <p>The strongest message from the two papers is that microplastic research is becoming more connected. Detection without understanding sources is incomplete. Health discussion without reliable particle measurement is weak. Treatment without source control is expensive. Recovery without safety assessment is risky.</p>
+        <p>A better future pathway will link careful sampling, validated detection, exposure-aware health research, low-cost monitoring, treatment design and circular economy thinking. That is the purpose of this website: to turn scattered scientific knowledge into a clear, useful and growing knowledge space.</p>
+      </section>
+
+      <section class="story-block source-note-block">
+        <h2>Research base used</h2>
+        <p>This article was developed from two recent review papers on microplastic sources, fate, degradation, health relevance, analytical identification, electrochemical sensing and recovery options. The article is written as a synthesis, not as a paper-by-paper summary.</p>
+        <div class="source-links">
+          <a href="https://doi.org/10.1016/j.pce.2026.104323" target="_blank" rel="noopener">Review on sources, impacts, degradation and energy recovery</a>
+          <a href="https://doi.org/10.1039/d5ra09062h" target="_blank" rel="noopener">Review on fate, identification methods and electrochemical sensing</a>
+        </div>
+      </section>
     </article>
-  </section>
-
-  <section class="section tight">
-    <div class="section-head">
-      <h2>Your publication library</h2>
-      <p class="lead">Two reviewed publications are listed below. You can keep adding more publications through data/site.json.</p>
-    </div>
-    <div class="grid two" data-render="publications">
-      <article class="card"><h3>Publication card</h3><p>Publication data loads from data/site.json.</p></article>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="section-head">
-      <h2>Research gaps to watch</h2>
-    </div>
-    <div class="grid three">
-      <article class="card"><h3>Standard methods</h3><p>Sampling, contamination control, blank correction and reporting units are not yet fully harmonised across studies.</p></article>
-      <article class="card"><h3>Small particles</h3><p>Small microplastics and nanoplastics remain difficult to measure, especially in complex biological and environmental matrices.</p></article>
-      <article class="card"><h3>Real-time monitoring</h3><p>Fast field-ready tools need stronger calibration, interference testing and validation against confirmatory methods.</p></article>
-      <article class="card"><h3>Human risk</h3><p>More work is needed to connect exposure levels, particle properties and biological effects with confidence.</p></article>
-      <article class="card"><h3>Transformation history</h3><p>Environmental ageing can change detection signatures and biological behaviour.</p></article>
-      <article class="card"><h3>Open datasets</h3><p>Machine learning workflows need transparent reference datasets that represent real-world particle diversity.</p></article>
-    </div>
-  </section>
-
-  <section class="section tight">
-    <div class="section-head">
-      <h2>Core references used for this website</h2>
-      <p class="lead">The references below are starting points. Add your own reviewed publications as the website develops.</p>
-    </div>
-    <ul class="reference-list" data-render="references">
-      <li>References load from data/site.json.</li>
-    </ul>
   </section>
 </main>
 
@@ -96,10 +158,10 @@
   <div class="footer-inner">
     <div>
       <strong>Microplastics Lab</strong><br>
-      Science-based educational website. Update content from <code>data/site.json</code>.
+      Science-based educational website. Update content from <code>data/site.json</code> where needed.
     </div>
     <div class="footer-links">
-      <a href="publications.html">References</a>
+      <a href="publications.html">Publications</a>
       <a href="author.html">Author</a>
     </div>
   </div>
